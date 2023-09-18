@@ -3,9 +3,9 @@ from discord.ext import commands
 from twilio.rest import Client
 
 # Your Twilio account SID and auth token
-twilio_account_sid = 'AC8efde7bfb9368057089102f5e3874e33'
-twilio_auth_token = '1d4688d7373e117299b1c4d02ced3aff'
-phone_number = '+2347053359102'
+twilio_account_sid = 'twilio_sid'
+twilio_auth_token = 'twilio_auth_token'
+phone_number = 'your_number'
 
 intents = discord.Intents.default()
 intents.messages = True
